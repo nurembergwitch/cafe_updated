@@ -1,0 +1,120 @@
+html {
+  background: url(https://images.unsplash.com/photo-1504416285472-eccf03dd31eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pageflexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-color: #000000a0;
+}
+
+.navbar {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navbar div{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.sticky {
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+/* 
+.bgimage {
+  
+} */
+
+
+.cuisineselector {
+  width: 80%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ margin: 30px
+}
+
+.allcuisines {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.cuisinegroupbox {
+  background-color: #ffffff42;
+  margin: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: auto;
+}
+
+.cuisinegroupbox div {
+  width: 150px;
+  height: 150px
+}
+
+.dish {
+  margin: 50px;
+  outline: 2px solid white;
+  display: flex;
+  flex-direction: column;
+ }
+
+
+ .futuremap {
+  height: 500px;
+ }

@@ -1,0 +1,70 @@
+{
+    "dishes": [
+        {
+            "name": "tom kha",
+            "cuisine": "thai",
+            "description": "description",
+            "id":1
+        },
+        {
+            "name": "kimbap",
+            "cuisine": "korean",
+            "description": "description",
+            "id":2
+        },
+        {
+            "name": "mochi",
+            "cuisine": "japanese",
+            "description": "desc",
+            "id":3
+        },
+        {
+            "name": "taiyaki",
+            "cuisine": "japanese",
+            "description": "desc here",
+            "id":4
+        },
+        {
+            "name": "mango rice",
+            "cuisine": "thai",
+            "description": "description",
+            "id": 5
+        },
+        {
+            "name": "boba tea",
+            "cuisine": "thai",
+            "description": "description",
+            "id": 6
+        },
+        {
+            "name": "takoyaki",
+            "cuisine": "japanese",
+            "description": "description",
+            "id": 7
+        },
+        {
+            "name": "crab legs",
+            "cuisine": "korean",
+            "description": "description",
+            "id": 8
+        },
+        {
+            "name": "mochi donut",
+            "cuisine": "japanese",
+            "description": "description",
+            "id": 9
+        },
+        {
+            "name": "army stew",
+            "cuisine": "korean",
+            "description": "description",
+            "id": 10
+        },
+        {
+            "name": "some spicy shit",
+            "cuisine": "korean",
+            "description": "description",
+            "id": 11
+        }
+    ]
+}
